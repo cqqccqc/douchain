@@ -84,3 +84,7 @@ func (bc *Blockchain) Iterator() *BlockchainIterator {
 
 	return bci
 }
+
+func (bc *Blockchain) FindSpendableOutputs(from string, amount int) (int, map[string][]int) {
+
+}
